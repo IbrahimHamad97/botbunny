@@ -16,7 +16,7 @@ client.on("messageDelete", (msg) => {
 
 client.on("message", (msg) => {
   if (msg.content === "meow") {
-    msg.reply("Pong!");
+    msg.reply("MEOW BISH");
     msg.react("❤");
   }
   if (msg.content === "meow-") {
